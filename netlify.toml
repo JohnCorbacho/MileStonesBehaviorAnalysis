@@ -5,6 +5,17 @@
 [build.environment]
   NODE_VERSION = "18"
 
+# Site configuration
+[context.production]
+  command = "npm run build"
+
+# Custom domain configuration
+[[redirects]]
+  from = "https://milestonesbehavioranalysis.netlify.app/*"
+  to = "https://milestonesbehavioranalysis.com/:splat"
+  status = 301
+  force = true
+
 # Redirects for React Router
 [[redirects]]
   from = "/*"
