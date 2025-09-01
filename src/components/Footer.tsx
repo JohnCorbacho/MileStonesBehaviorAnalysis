@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
               </p>
               <p className="contact-item">
                 <span className="contact-icon">🕒</span>
-                Mon-Fri: 8:00 AM - 6:00 PM
+                Mon-Fri: 9:00 AM - 5:00 PM
               </p>
             </div>
           </div>

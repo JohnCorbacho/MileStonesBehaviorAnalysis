@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
                     <div className="info-content">
                       <h4>Phone</h4>
                       <p>(786) 732-0247</p>
-                      <span className="info-note">Mon-Fri: 8:00 AM - 6:00 PM</span>
+                      <span className="info-note">Mon-Fri: 9:00 AM - 5:00 PM</span>
                     </div>
                   </div>
 
@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
                     <div className="info-content">
                       <h4>Business Hours</h4>
                       <p>Monday - Friday</p>
-                      <span className="info-note">8:00 AM - 6:00 PM</span>
+                      <span className="info-note">9:00 AM - 5:00 PM</span>
                     </div>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
                   <div className="hours-list">
                     <div className="hours-item">
                       <span>Monday - Friday</span>
-                      <span>8:00 AM - 6:00 PM</span>
+                      <span>9:00 AM - 5:00 PM</span>
                     </div>
                     <div className="hours-item">
                       <span>Saturday</span>

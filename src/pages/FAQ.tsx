@@ -68,40 +68,29 @@ const FAQ: React.FC = () => {
       answer: "At Milestones Behavior Analysis, we proudly partner with the following insurance providers to make ABA services accessible to families: Sunshine Health (Medicaid & Managed Care Plans), Simply Healthcare, Lucet (New Directions Behavioral Health) – including Florida Blue HMO, PPO, and myBlue HMO plans. Our staff can guide you through the authorization process and help you understand your coverage, making the process feel simple and stress-free.",
       category: "insurance"
     },
-    {
-      id: 9,
-      question: "What if my insurance doesn't cover ABA therapy?",
-      answer: "If your insurance doesn't cover ABA therapy, we offer private pay options and payment plans. We also provide assistance in appealing insurance denials and can help you explore other funding options such as grants or state programs.",
-      category: "insurance"
-    },
-    {
-      id: 10,
-      question: "How much does ABA therapy cost?",
-      answer: "ABA therapy costs vary based on the type and intensity of services. With insurance, your out-of-pocket costs depend on your plan's benefits. For private pay, our rates are competitive and we provide detailed cost estimates during consultation.",
-      category: "insurance"
-    },
+
     
     // Family & Practical
     {
-      id: 11,
+      id: 9,
       question: "How can parents and family members get involved?",
       answer: "Family involvement is crucial to ABA success. We provide parent training sessions, teach you how to implement strategies at home, and include you in treatment planning. Regular communication and collaboration ensure skills generalize across all environments.",
       category: "family"
     },
     {
-      id: 12,
+      id: 10,
       question: "How do you measure progress?",
       answer: "We use continuous data collection to track progress on specific goals. You'll receive regular progress reports with graphs and updates. We also conduct periodic reassessments to ensure treatment plans remain effective and adjust goals as needed.",
       category: "family"
     },
     {
-      id: 13,
+      id: 11,
       question: "What should I expect in the first few sessions?",
       answer: "The first few sessions focus on building rapport, establishing routines, and baseline data collection. Your child may need time to adjust to the therapist and new activities. It's normal for some initial resistance, but our therapists are trained to make sessions engaging and positive.",
       category: "family"
     },
     {
-      id: 14,
+      id: 12,
       question: "Can ABA therapy help with school behaviors?",
       answer: "Yes, ABA can be very effective for school-related behaviors. We offer school consultation services, work with teachers to implement behavior plans, and can provide support for IEP meetings. Our goal is to help your child succeed in their educational environment.",
       category: "family"
