@@ -263,7 +263,7 @@ const FAQ: React.FC = () => {
               <p className="resource-description">
                 Comprehensive guide covering ABA basics, what to expect, and how to support your child's progress.
               </p>
-              <a href="#" className="resource-link">Download PDF →</a>
+              <a href="/resources/parent-guide.pdf" className="resource-link">Download PDF →</a>
             </div>
             
             <div className="resource-card">
@@ -272,7 +272,7 @@ const FAQ: React.FC = () => {
               <p className="resource-description">
                 Step-by-step checklist to help you understand your insurance benefits and coverage for ABA services.
               </p>
-              <a href="#" className="resource-link">Download PDF →</a>
+              <a href="/resources/insurance-checklist.pdf" className="resource-link">Download PDF →</a>
             </div>
             
             <div className="resource-card">
@@ -281,7 +281,7 @@ const FAQ: React.FC = () => {
               <p className="resource-description">
                 Guide to help families identify meaningful goals and track progress in ABA therapy.
               </p>
-              <a href="#" className="resource-link">Download PDF →</a>
+              <a href="/resources/setting-goals.pdf" className="resource-link">Download PDF →</a>
             </div>
           </div>
         </div>
