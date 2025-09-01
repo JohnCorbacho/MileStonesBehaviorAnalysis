@@ -44,29 +44,7 @@
   font-size: 0.95rem;
 }
 
-.footer-social {
-  display: flex;
-  gap: 1rem;
-}
 
-.social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background: rgba(96, 165, 250, 0.1);
-  color: #60a5fa;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  text-decoration: none;
-}
-
-.social-link:hover {
-  background: #60a5fa;
-  color: #1f2937;
-  transform: translateY(-2px);
-}
 
 .footer-links {
   list-style: none;
@@ -172,10 +150,7 @@
     justify-content: center;
   }
 
-  .social-link {
-    width: 45px;
-    height: 45px;
-  }
+
 }
 
 @media (max-width: 480px) {
