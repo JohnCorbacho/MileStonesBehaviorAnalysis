@@ -12,7 +12,7 @@
 # Custom domain configuration
 [[redirects]]
   from = "https://milestonesbehavioranalysis.netlify.app/*"
-  to = "https://milestonesbehavioranalysis.com/:splat"
+  to = "https://milestonesbehavioranalysismiami.com/:splat"
   status = 301
   force = true
 
