@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import './About.css';
 
 const About: React.FC = () => {
@@ -8,20 +9,49 @@ const About: React.FC = () => {
       {/* Hero Section */}
       <section className="about-hero">
         <div className="container">
-          <div className="about-hero-content">
-            <h1 className="about-title">About Milestones Behavior Analysis</h1>
-            <p className="about-subtitle">
+          <motion.div 
+            className="about-hero-content"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <motion.h1 
+              className="about-title"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            >
+              About Milestones Behavior Analysis
+            </motion.h1>
+            <motion.p 
+              className="about-subtitle"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+            >
               Dedicated to helping children reach their fullest potential through high-quality ABA services
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </div>
       </section>
 
       {/* Mission Section */}
       <section className="mission-section">
         <div className="container">
-          <div className="mission-content">
-            <div className="mission-text">
+          <motion.div 
+            className="mission-content"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
+            <motion.div 
+              className="mission-text"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+              viewport={{ once: true }}
+            >
               <h2 className="section-title">Who We Are</h2>
               <p className="mission-description">
                 Milestones Behavior Analysis was founded with one clear purpose: to help children reach their fullest potential through high-quality ABA services. Our team comprises Board Certified Behavior Analysts (BCBAs), Board Certified Assistant Behavior Analysts (BCaBAs), Registered Behavior Technicians (RBTs), and dedicated administrative staff, all working together to ensure that every child's therapy plan is as unique as they are.
@@ -30,15 +60,21 @@ const About: React.FC = () => {
               <p className="mission-description">
                 Our mission is to empower children with developmental needs to build skills for a brighter future. We believe in collaboration, compassion, and consistency. By working closely with families, schools, and communities, we create environments where children can thrive both in therapy and in everyday life.
               </p>
-            </div>
-            <div className="mission-visual">
+            </motion.div>
+            <motion.div 
+              className="mission-visual"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+              viewport={{ once: true }}
+            >
               <div className="mission-card">
                 <div className="mission-icon">🎯</div>
                 <h3>Our Vision</h3>
                 <p>A world where every child has the support they need to reach their milestones and contribute meaningfully to their community.</p>
               </div>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
         </div>
       </section>
 

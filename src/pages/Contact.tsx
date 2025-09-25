@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './Contact.css';
 
 const Contact: React.FC = () => {
@@ -8,12 +9,29 @@ const Contact: React.FC = () => {
       {/* Hero Section */}
       <section className="contact-hero">
         <div className="container">
-          <div className="contact-hero-content">
-            <h1 className="contact-title">Contact Us</h1>
-            <p className="contact-subtitle">
+          <motion.div 
+            className="contact-hero-content"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <motion.h1 
+              className="contact-title"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            >
+              Contact Us
+            </motion.h1>
+            <motion.p 
+              className="contact-subtitle"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+            >
               Ready to get started? We're here to help you take the next step towards positive change.
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </div>
       </section>
 
@@ -50,7 +68,7 @@ const Contact: React.FC = () => {
                     <div className="info-icon">📧</div>
                     <div className="info-content">
                       <h4>Email</h4>
-                      <p>milestonesaba2023@gmail.com</p>
+                      <p>info@milestones-aba.org</p>
                       <span className="info-note">We respond within 24 hours</span>
                     </div>
                   </div>

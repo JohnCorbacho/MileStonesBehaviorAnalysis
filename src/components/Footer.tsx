@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
               </p>
               <p className="contact-item">
                 <span className="contact-icon">📧</span>
-                milestonesaba2023@gmail.com
+                info@milestones-aba.org
               </p>
               <p className="contact-item">
                 <span className="contact-icon">🕒</span>

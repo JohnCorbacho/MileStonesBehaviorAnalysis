@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import './FAQ.css';
 
 interface FAQItem {
@@ -121,12 +122,29 @@ const FAQ: React.FC = () => {
       {/* Hero Section */}
       <section className="faq-hero">
         <div className="container">
-          <div className="faq-hero-content">
-            <h1 className="faq-title">Frequently Asked Questions</h1>
-            <p className="faq-subtitle">
+          <motion.div 
+            className="faq-hero-content"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <motion.h1 
+              className="faq-title"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            >
+              Frequently Asked Questions
+            </motion.h1>
+            <motion.p 
+              className="faq-subtitle"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+            >
               Find answers to common questions about our ABA services and treatment approach
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </div>
       </section>
 
