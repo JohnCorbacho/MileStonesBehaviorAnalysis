@@ -36,6 +36,16 @@ const Footer: React.FC = () => {
               <li><Link to="/services" className="footer-link">Behavior Support Plans</Link></li>
               <li><Link to="/services" className="footer-link">Social Skills Groups</Link></li>
               <li><Link to="/services" className="footer-link">Parent Training</Link></li>
+              <li>
+                <a 
+                  href="https://www.indeed.com/job/board-certified-behavior-analyst-f8fa9a5957c85784" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="footer-link footer-job-link"
+                >
+                  Join Our Team
+                </a>
+              </li>
             </ul>
           </div>
 

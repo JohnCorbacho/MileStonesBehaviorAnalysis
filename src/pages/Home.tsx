@@ -34,19 +34,11 @@ const Home: React.FC = () => {
               Welcome to 
               <span className="hero-highlight"> Milestones Behavior Analysis</span>
             </motion.h1>
-            <motion.p 
-              className="hero-description"
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-            >
-              We're dedicated to supporting children, families, and communities through evidence-based Applied Behavior Analysis (ABA) therapy. Our team of compassionate professionals is here to guide your child's growth, celebrate progress, and create meaningful change. Whether you're seeking early intervention, school readiness support, or parent training, we're here to walk alongside you on this journey.
-            </motion.p>
             <motion.div 
               className="hero-buttons"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
+              transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
             >
               <Link to="/services" className="btn btn-primary">
                 Our Services
@@ -71,8 +63,7 @@ const Home: React.FC = () => {
           >
             <h2 className="section-title">Why Choose Milestones Behavior Analysis?</h2>
             <p className="section-description">
-              Our comprehensive approach combines evidence-based practices with 
-              personalized care to deliver exceptional results for children and families.
+              We're dedicated to supporting children, families, and communities through evidence-based Applied Behavior Analysis (ABA) therapy. Our team of compassionate professionals is here to guide your child's growth, celebrate progress, and create meaningful change. Whether you're seeking early intervention, school readiness support, or parent training, we're here to walk alongside you on this journey.
             </p>
           </motion.div>
           

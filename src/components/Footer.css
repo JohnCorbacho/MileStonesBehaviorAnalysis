@@ -69,6 +69,23 @@
   transform: translateX(5px);
 }
 
+.footer-job-link {
+  color: #fbbf24 !important;
+  font-weight: 600;
+  position: relative;
+}
+
+.footer-job-link:hover {
+  color: #f59e0b !important;
+  transform: translateX(5px);
+}
+
+.footer-job-link::after {
+  content: ' ↗';
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
 .footer-contact {
   display: flex;
   flex-direction: column;
