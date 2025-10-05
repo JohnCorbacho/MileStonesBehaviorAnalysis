@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               <li><Link to="/services" className="footer-link">Parent Training</Link></li>
               <li>
                 <a 
-                  href="https://www.indeed.com/job/board-certified-behavior-analyst-f8fa9a5957c85784" 
+                  href="https://www.indeed.com/cmp/Milestones-Behavior-Analysis?campaignid=mobvjcmp&from=mobviewjob&tk=1j6j7u1prg0ht800&fromjk=f8fa9a5957c85784" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="footer-link footer-job-link"

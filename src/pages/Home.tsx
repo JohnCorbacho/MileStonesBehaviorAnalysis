@@ -14,6 +14,13 @@ const Home: React.FC = () => {
           muted 
           loop 
           playsInline
+          preload="metadata"
+          onError={(e) => {
+            console.warn('Video failed to load:', e);
+            // Fallback to background image if video fails
+            const videoElement = e.target as HTMLVideoElement;
+            videoElement.style.display = 'none';
+          }}
         >
           <source src="/Header.mp4" type="video/mp4" />
           Your browser does not support the video tag.
