@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
             <div className="footer-contact">
               <p className="contact-item">
                 <span className="contact-icon">📍</span>
-                12350 SW 132nd CT STE #201, Miami, FL 33186
+                13416 SW 128th St, Miami, FL 33186
               </p>
               <p className="contact-item">
                 <span className="contact-icon">📞</span>

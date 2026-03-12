@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
                     <div className="info-icon">📍</div>
                     <div className="info-content">
                       <h4>Office Location</h4>
-                      <p>12350 SW 132nd CT STE #201<br />Miami, FL 33186</p>
+                      <p>13416 SW 128th St<br />Miami, FL 33186</p>
                     </div>
                   </div>
 
