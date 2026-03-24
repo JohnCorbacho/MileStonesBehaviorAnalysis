@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
                     <div className="info-icon">📞</div>
                     <div className="info-content">
                       <h4>Phone</h4>
-                      <p>(786) 732-0247</p>
+                      <p>(305) 913-8205</p>
                       <span className="info-note">Mon-Fri: 9:00 AM - 5:00 PM</span>
                     </div>
                   </div>

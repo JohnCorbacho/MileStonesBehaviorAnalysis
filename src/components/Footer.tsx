@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
               </p>
               <p className="contact-item">
                 <span className="contact-icon">📞</span>
-                (786) 732-0247
+                (305) 913-8205
               </p>
               <p className="contact-item">
                 <span className="contact-icon">📧</span>
